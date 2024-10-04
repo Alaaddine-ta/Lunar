@@ -68,7 +68,8 @@ console.log("order : ",order)
         <div className="relative px-4 py-10 bg-white shadow-lg sm:rounded-3xl sm:p-20">
           <div className="max-w-md mx-auto">
             <div className="flex items-center justify-center">
-              <img src="/placeholder.svg?height=60&width=200" alt="Company Logo" className="h-15 w-auto" />
+              <h1>LUNAR</h1>
+              {/* <img src="/placeholder.svg?height=60&width=200" alt="Company Logo" className="h-15 w-auto" /> */}
             </div>
             <div className="divide-y divide-gray-200">
               <div className="py-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
