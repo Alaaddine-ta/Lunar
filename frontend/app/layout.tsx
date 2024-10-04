@@ -1,5 +1,5 @@
 import { Urbanist } from 'next/font/google'
-
+import { Analytics } from "@vercel/analytics/react"
 import ModalProvider from '@/providers/modal-provider'
 import ToastProvider from '@/providers/toast-provider'
 import Navbar from '@/components/navbar'
@@ -26,6 +26,7 @@ export default function RootLayout({
         <ModalProvider />
         <Navbar />
         {children}
+        <Analytics />
         <Footer />
       </body>
     </html>
